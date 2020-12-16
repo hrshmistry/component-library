@@ -3,13 +3,14 @@
 :root {
     --primary-color: #818CF8;
     --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
@@ -60,6 +61,7 @@ hr{
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
+
 .navigation .link-active {
     font-weight: bold;
 }
@@ -90,7 +92,7 @@ hr{
 }
 
 .hero .hero-heading {
-    color:  var(--dark-gray);
+    color: var(--dark-gray);
     padding-top: 2rem;
     text-align: center;
 }
@@ -98,3 +100,17 @@ hr{
 /* .hero .heading-inverted {
     color: var(--primary-color);
 } */
+
+/* section */
+
+.section {
+    padding: 2rem;
+}
+
+.section h3 {
+    text-align: center;
+}
+
+.off-white {
+    background-color: var(--off-white);
+}
